@@ -45,7 +45,6 @@ inv
 }
 
 ## this is to solve the coding
-source("cachematrix.R")
 a<- makeCacheMatrix()
 a$set(matrix(1:4,2,2))
 cacheSolve(a)
