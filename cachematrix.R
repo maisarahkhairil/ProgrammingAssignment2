@@ -44,7 +44,9 @@ x$setInverse(inv)
 inv
 }
 
-## this is to solve the coding
+## this is one way to use the coding
+## create the matrix as desired
+##one way to ensure to make sure the coding is right
 a<- makeCacheMatrix()
 a$set(matrix(1:4,2,2))
 cacheSolve(a)
